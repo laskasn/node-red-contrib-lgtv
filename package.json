@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-lgtv",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Node-RED Nodes to control LG webOS Smart TVs",
   "main": "none",
   "scripts": {
@@ -21,7 +21,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "lgtv2": "^1.4.1"
+    "lgtv2": "^1.6.3"
   },
   "node-red": {
     "nodes": {
