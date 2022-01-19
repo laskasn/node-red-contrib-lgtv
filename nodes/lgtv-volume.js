@@ -31,7 +31,7 @@ module.exports = function (RED) {
             }
 
             node.on('input', msg => {
-                msg.payload = parseInt(msg.payload, 10) || 0;
+                msg.payload = parseInt(msg.payload);
                 if (msg.payload > 100) {
                     msg.payload = 100;
                 } else if (msg.payload < 0) {
